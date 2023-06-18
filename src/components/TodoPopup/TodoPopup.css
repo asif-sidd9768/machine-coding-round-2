@@ -12,7 +12,7 @@
 }
 
 .todo-popup-content {
-  width: 50%;
+  width: 80%;
   color: white;
   box-shadow: 0 0 8px rgba(0,0,0,0.6);
   background-color: rgb(38, 38, 38);
@@ -74,4 +74,24 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media screen and (width > 576px) {
+  .todo-popup-content {
+    width: 50%;
+    color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    background-color: rgb(38, 38, 38);
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .todo-popup-content {
+    width: 35%;
+    color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    background-color: rgb(38, 38, 38);
+    padding: 1.5rem;
+  }
 }
