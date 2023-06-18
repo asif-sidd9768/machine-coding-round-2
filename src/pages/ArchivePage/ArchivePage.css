@@ -1,0 +1,19 @@
+.archive-page-empty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+
+.archive-page-empty-container p:nth-child(1){
+  font-size: 1.3rem;
+  margin: 0;
+  color: #333333;
+}
+
+.archive-page-empty-container p:nth-child(2){
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #777777;
+}
